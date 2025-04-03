@@ -144,6 +144,11 @@ app_license = "mit"
 # 		"on_trash": "method"
 # 	}
 # }
+doc_events = {
+    "Task": {
+        "on_trash": "sbkreston.api.task.on_trash"
+    }
+}
 
 # Scheduled Tasks
 # ---------------
